@@ -18,7 +18,7 @@
 
 ![Preview-ligth](https://github.com/CamiloRodriguezG/social-media-dashboard/blob/main/previews/ligth-preview.jpg)
 
-- You can see the page here:  hosted by vercel
+- You can see the page here: https://social-media-dashboard-pearl.vercel.app/ hosted by vercel
 - This is a webpage of a social media dashboard,  for a Challenge to [FrontendMentor](https://www.frontendmentor.io/)
 
 ## Built With
@@ -26,6 +26,7 @@
 - HTML
 - CSS
 - JavaScript
+- -FIGMA
 
 
 ## Features
