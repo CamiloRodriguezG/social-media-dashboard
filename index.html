@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <link rel="stylesheet" href="index.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-bottom: 15px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="title">
+      <p class="title-text">Social Media Dashboard</p>
+      <p class="total-f-text">Total Followers: 23,004</p>
+    </div>
+    <div class="toggle-sec">
+      <p>Dark Mode</p>
+      <div class="toggle" onclick="changeMode()">
+        <div class="toggle-circle"></div>
+      </div>
+    </div>
+  </header>
+  <div class="main-cards">
+
+    <div class="main-card facebook">
+      <div class="card-user">
+        <img src="/images/icon-facebook.svg" alt="facebook logo">
+        <p>@nathanf</p>
+      </div>
+      <div class="card-followers">
+        <p>1987</p>
+        <span>FOLLOWERS</span>
+      </div>
+      <div class="card-stadistic-up">
+        <img src="/images/icon-up.svg" alt="up icon">
+        <span>12 Today</span>
+      </div>
+    </div>
+
+    <div class="main-card twitter">
+      <div class="card-user">
+        <img src="/images/icon-twitter.svg" alt="twitter logo">
+        <p>@nathanf</p>
+      </div>
+      <div class="card-followers">
+        <p>1044</p>
+        <span>FOLLOWERS</span>
+      </div>
+      <div class="card-stadistic-up">
+        <img src="/images/icon-up.svg" alt="up icon">
+        <span>99 Today</span>
+      </div>
+    </div>
+
+    <div class="main-card instagram">
+      <div class="card-user">
+        <img src="/images/icon-instagram.svg" alt="instagram logo">
+        <p>@realnathanf</p>
+      </div>
+      <div class="card-followers">
+        <p>11k</p>
+        <span>FOLLOWERS</span>
+      </div>
+      <div class="card-stadistic-up">
+        <img src="/images/icon-up.svg" alt="up icon">
+        <span>1099 Today</span>
+      </div>
+    </div>
+
+    <div class="main-card youtube">
+      <div class="card-user">
+        <img src="/images/icon-youtube.svg" alt="youtube logo">
+        <p>  Nathan F.</p>
+      </div>
+      <div class="card-followers">
+        <p>8239</p>
+        <span>SUSCRIBERS</span>
+      </div>
+      <div class="card-stadistic-down">
+        <img src="/images/icon-down.svg" alt="up icon">
+        <span>144 Today</span>
+      </div>
+    </div>
+  </div>
+  <div class="today-cards-container">
+    <p>Overview - Today</p>
+    <div class="today-cards">
+      <div class="today-card">
+        <div class="today-card-inf">
+          <p>Page Views</p>
+          <img src="/images/icon-facebook.svg" alt="facebook icon">
+        </div>
+        <div class="today-card-stadistic">
+          <p>87</p>
+          <div>
+            <img src="/images/icon-up.svg" alt="up icon">
+            <span>3%</span>
+          </div>
+        </div>
+      </div>
+      <div class="today-card">
+          <div class="today-card-inf">
+            <p>Likes</p>
+            <img src="/images/icon-facebook.svg" alt="facebook icon">
+          </div>
+          <div class="today-card-stadistic">
+            <p>52</p>
+            <div class="down">
+              <img src="/images/icon-down.svg" alt="down icon">
+              <span>2%</span>
+            </div>
+          </div>
+      </div>
+      <div class="today-card">
+        <div class="today-card-inf">
+          <p>Likes</p>
+          <img src="/images/icon-instagram.svg" alt="instagram icon">
+        </div>
+        <div class="today-card-stadistic">
+          <p>5462</p>
+          <div>
+            <img src="/images/icon-up.svg" alt="up icon">
+            <span>2257%</span>
+          </div>
+        </div>
+      </div>
+      <div class="today-card">
+        <div class="today-card-inf">
+          <p>Profile Views</p>
+          <img src="/images/icon-instagram.svg" alt="instagram icon">
+        </div>
+        <div class="today-card-stadistic">
+          <p>52k</p>
+          <div>
+            <img src="/images/icon-up.svg" alt="up icon">
+            <span>1375%</span>
+          </div>
+        </div>
+      </div>
+      <div class="today-card">
+        <div class="today-card-inf">
+          <p>Retweets</p>
+          <img src="/images/icon-twitter.svg" alt="twitter icon">
+        </div>
+        <div class="today-card-stadistic">
+          <p>117</p>
+          <div>
+            <img src="/images/icon-up.svg" alt="up icon">
+            <span>303%</span>
+          </div>
+        </div>
+      </div>
+      <div class="today-card">
+        <div class="today-card-inf">
+          <p>Likes</p>
+          <img src="/images/icon-twitter.svg" alt="twitter icon">
+        </div>
+        <div class="today-card-stadistic">
+          <p>507</p>
+          <div>
+            <img src="/images/icon-up.svg" alt="up icon">
+            <span>553%</span>
+          </div>
+        </div>
+      </div>
+      <div class="today-card">
+        <div class="today-card-inf">
+          <p>Likes</p>
+          <img src="/images/icon-youtube.svg" alt="youtube icon">
+        </div>
+        <div class="today-card-stadistic">
+          <p>107</p>
+          <div class="down">
+            <img src="/images/icon-down.svg" alt="up icon">
+            <span>19%</span>
+          </div>
+        </div>
+      </div>
+      <div class="today-card">
+        <div class="today-card-inf">
+          <p>Total Views</p>
+          <img src="/images/icon-youtube.svg" alt="youtube icon">
+        </div>
+        <div class="today-card-stadistic">
+          <p>1407</p>
+          <div class="down">
+            <img src="/images/icon-down.svg" alt="up icon">
+            <span>12%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/CamiloRodriguezG">Camilo Rodriguez</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
